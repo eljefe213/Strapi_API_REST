@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "foood_items",
+  "info": {
+    "singularName": "foood-item",
+    "pluralName": "foood-items",
+    "displayName": "fooodItem"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "expirationDate": {
+      "type": "date"
+    },
+    "category": {
+      "type": "string"
+    }
+  }
+}
